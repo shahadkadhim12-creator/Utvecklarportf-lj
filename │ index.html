@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Developer Portal</title>
+
+    <meta name="description" content="">
+    <meta name="keywords" content="Portfolio för webb, JS, React, Node etc.">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="site-header" id="home">
+        <nav class="navbar" aria-label="Primär navigation">
+            <a class="logo" href="#home" aria-label="Startsida">Shahad</a>
+
+            <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Öppna meny">
+                <span class="hamburger"></span>
+            </button>
+
+            <ul id="nav-menu" class="nav-menu">
+                <li><a href="#about">Om mig</a></li>
+                <li><a href="#skills">Kunskaper</a></li>
+                <li><a href="#projects">Portfolio</a></li>
+                <li><a href="#testimonials">Referenser</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-content">
+                <h1 id="hero-title">Hej, jag är Shahad</h1>
+                <p class="hero-sub">Frontend-utvecklare som bygger snabba, tillgängliga webblösningar.</p>
+
+                <div class="hero-action">
+                    <a class="btn primary" href="assets/Shahad-CV.pdf" download>Ladda ner CV</a>
+                    <a class="btn secondary" href="#projects">Se projekt</a>
+                </div>
+
+                <div class="socials" aria-label="sociala länkar">
+                    <a href="https://github.com/username" target="_blank" rel="noopener">GitHub</a>
+                    <a href="https://linkedin.com/in/username" target="_blank" rel="noopener">LinkedIn</a>
+                </div>
+            </div>
+
+            <div class="hero-media">
+                <img src="uggla.jpg" alt="Porträttbild på Shahad" width="200">
+
+            </div>
+        </section>
+    </header>
+
+    <!-- About Me -->
+    <section id="about">
+        <h2>Om mig</h2>
+        <p>
+            Jag heter Shahad och är webbutvecklarstudent med intresse för att skapa moderna,
+            användarvänliga hemsidor. Jag älskar att lära mig nya teknologier och utveckla mina
+            färdigheter genom projekt och samarbeten.
+        </p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2>Kunskaper</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Git & GitHub</li>
+            <li>Responsiv design</li>
+        </ul>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="projects">
+        <h2>Portfolio</h2>
+
+        <div class="project">
+            <h3>Projekt 1</h3>
+            <p>Beskrivning av projekt (placeholder).</p>
+            <a href="#">GitHub</a> | <a href="#">Live Demo</a>
+        </div>
+
+        <div class="project">
+            <h3>Projekt 2</h3>
+            <p>Beskrivning av projekt (placeholder).</p>
+            <a href="#">GitHub</a> | <a href="#">Live Demo</a>
+        </div>
+
+        <div class="project">
+            <h3>Projekt 3</h3>
+            <p>Beskrivning av projekt (placeholder).</p>
+            <a href="#">GitHub</a> | <a href="#">Live Demo</a>
+        </div>
+
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials">
+        <h2>Referenser</h2>
+
+        <div class="testimonial">
+            <p>"Shahad arbetar hårt och visar alltid bra resultat."</p>
+            <strong>- Kollegor / Kompisar</strong>
+        </div>
+
+        <div class="testimonial">
+            <p>"En pålitlig och engagerad utvecklare."</p>
+            <strong>- Arbetslivsreferens</strong>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact">
+        <h2>Kontakt</h2>
+
+        <form>
+            <input type="text" placeholder="Ditt namn" required>
+            <input type="email" placeholder="Din email" required>
+            <textarea placeholder="Ditt meddelande" required></textarea>
+            <button type="submit">Skicka</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Shahad – Alla rättigheter förbehållna.</p>
+    </footer>
+
+    <!-- JAVASCRIPT FILEN (läggs precis här) -->
+    <script src="script.js"></script>
+
+</body>
+</html>
